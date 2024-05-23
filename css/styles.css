@@ -1,0 +1,4 @@
+/* Ändere die Hintergrundfarbe und die Textfarbe des Carousel-Textes */
+.carousel-caption {
+    color: #333; /* Dunkelgraue Textfarbe */
+}
