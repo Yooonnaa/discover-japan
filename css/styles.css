@@ -2,3 +2,32 @@
 .carousel-caption {
     color: #333; /* Dunkelgraue Textfarbe */
 }
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Stelle sicher, dass die Navbar über dem Bild liegt */
+}
+
+* {
+    font-family: Outfit, serif;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 400px; /* Adjust the height as needed */
+}
+.header-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: white; /* Ensure the navbar text is white */
+}
