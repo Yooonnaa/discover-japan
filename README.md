@@ -4,9 +4,6 @@ Welcome to the Discover Japan website! This site provides information on traveli
 
 ## Features
 
-- **Navbar:** A responsive navigation bar built with Bootstrap.
-- **Image Carousel:** An image carousel with navigation controls.
-- **Profile Icon:** A profile icon in the navbar that links to a profile page.
 - **Bootstrap:** The site is styled and laid out using [Bootstrap](https://getbootstrap.com/).
 
 ## Installation and Usage
