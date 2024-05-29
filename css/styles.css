@@ -4,9 +4,6 @@
 }
 
 .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 1; /* Stelle sicher, dass die Navbar über dem Bild liegt */
 }
 
@@ -15,15 +12,13 @@
 }
 
 .header {
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 400px; /* Adjust the height as needed */
 }
+
+
 .header-content {
     position: absolute;
-    top: 80%;
-    left: 50%;
+    top: 68%;
+    left: 42%;
     transform: translate(-50%, -50%);
 }
 
