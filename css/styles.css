@@ -26,3 +26,20 @@
 .navbar .navbar-nav .nav-link {
     color: white; /* Ensure the navbar text is white */
 }
+
+body {
+    background: #FFF7F1;
+}
+
+.footer {
+    background-color: #27224B;
+    color: #AAA8B3;
+}
+
+.footer-head {
+    font-weight: bold;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
