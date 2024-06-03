@@ -1,10 +1,5 @@
-/* Ändere die Hintergrundfarbe und die Textfarbe des Carousel-Textes */
-.carousel-caption {
-    color: #333; /* Dunkelgraue Textfarbe */
-}
-
 .navbar {
-    z-index: 1; /* Stelle sicher, dass die Navbar über dem Bild liegt */
+    z-index: 1; /* Ensure the navbar is positioned above the image */
 }
 
 * {
@@ -14,17 +9,26 @@
 .header {
 }
 
+.header img {
+    width: 100%;
+    height: auto;
+}
 
 .header-content {
     position: absolute;
-    top: 48%;
-    left: 42%;
+    top: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    color: white;
 }
 
 
 .navbar .navbar-nav .nav-link {
-    color: white; /* Ensure the navbar text is white */
 }
 
 body {
